@@ -16,7 +16,7 @@ function draw()
 }
 function start()
 {
-    objectDelector=ml5.objectDelector('cocossd',modelloaded);
+    objectDetector=ml5.objectDetector('cocossd',modelloaded);
     document.getElementById("status").innerHTML="status : deleting object";
 }
 function modelloaded()
